@@ -1,0 +1,38 @@
+.contfooter {
+    z-index: 1 !important;
+}
+
+.footer-color {
+    color: #ffffff;
+    margin-bottom: 0 !important;
+}
+
+.bg-green {
+    background-color: #aacc00;
+}
+
+.text-green {
+    color: #aacc00;
+}
+
+.borde-orange {
+    border-color: #aacc00;
+    border-style: groove;
+    border-width: 3px;
+}
+
+.img-footer {
+    width: 150px;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    color: #aacc00;
+}
+
+@media (max-width: 990px) {
+    .img-footer {
+        width: 70px;
+    }
+}

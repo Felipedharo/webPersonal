@@ -1,0 +1,55 @@
+.sombralateral {
+    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, .5);
+}
+
+.borderlateral {
+    border-bottom-style: groove;
+    border-top-style: groove;
+    border-color: #aacc00;
+    border-width: 2px;
+}
+
+.nav-hover {
+    position: relative;
+}
+
+.nav-hover:hover {
+    color: #aacc00 !important;
+}
+
+.sidebar {
+    width: 70px;
+    height: 0px;
+}
+
+
+/* aqui el la pestaña */
+
+.nav-hover::after {
+    opacity: 0;
+    right: 80px;
+    top: 0;
+    content: "";
+    width: 10px;
+    height: 51px;
+    background-color: #aacc00;
+    transition: 150ms;
+    position: absolute;
+    z-index: -1;
+}
+
+.nav-hover:hover:after {
+    z-index: -1;
+    opacity: 1;
+    transform: translateX(20px);
+}
+
+.nav-hover:focus:after {
+    z-index: -1;
+    opacity: 1;
+    transform: translateX(20px);
+}
+
+.onActiveSide {
+    color: #aacc00;
+}
