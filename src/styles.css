@@ -1,38 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
 
-body {
-    background-color: black;
-    color: white !important;
+:root {
+    --color1: #343838;
+    --color2: #005F6B;
+    --color3: #008C9E;
+    --color4: #00B4CC;
+    --color5: #00DFFC;
 }
 
 * {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-hr {
-    border-style: groove;
-    border-right: 1px;
-    border-color: #343a40;
+.laterales {
+    z-index: 100;
 }
 
-.contenido {
-    width: 77.5% !important;
-    transform: translateX(55.5px);
-    background-color: white;
+hr {
+    border-style: groove;
+    border-width: 1px !important;
+    border-color: var(--color5) !important;
 }
 
 .puntero {
     cursor: pointer;
 }
 
+.contend {
+    margin: 0 auto;
+    left: 117px;
+}
+
 .img-circle {
     border-radius: 50%;
-    background-color: #508bbe;
+    background-color: var(--color4);
+}
+
+.iconos {
+    color: var(--color5);
+}
+
+.interes {
+    color: var(--color3);
 }
 
 .imgperfil {
-    width: 150px !important;
-    height: 150px !important;
+    width: 180px !important;
+    height: 180px !important;
 }
 
 .main-container {

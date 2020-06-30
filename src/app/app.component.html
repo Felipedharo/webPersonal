@@ -1,8 +1,22 @@
 <app-navbar></app-navbar>
 <app-sidebar></app-sidebar>
+
 <!-- aquie se necesuta poner el contenedor a una medida   -->
-<div class="container my-1 contenido">
-    <router-outlet></router-outlet>
+<div class="container-fluid  p-0 my-3 ">
+
+    <div class="row ">
+        <!-- <div class="col-3 ">
+
+        </div> -->
+        <div class="col-8 p-0 ">
+            <router-outlet></router-outlet>
+        </div>
+        <!-- <div class="col-1 text-center">
+
+        </div> -->
+    </div>
+
+
 </div>
 
 

@@ -1,3 +1,11 @@
+:root {
+    --color1: #343838;
+    --color2: #005F6B;
+    --color3: #008C9E;
+    --color4: #00B4CC;
+    --color5: #00DFFC;
+}
+
 .contfooter {
     z-index: 1 !important;
 }
@@ -8,15 +16,19 @@
 }
 
 .bg-green {
-    background-color: #aacc00;
+    background-color: var(--color4);
+}
+
+.Colorbg {
+    background-color: var(--color1);
 }
 
 .text-green {
-    color: #aacc00;
+    color: var(--color4);
 }
 
 .borde-orange {
-    border-color: #aacc00;
+    border-color: var(--color5);
     border-style: groove;
     border-width: 3px;
 }
@@ -28,7 +40,7 @@
 .icons {
     width: 30px;
     height: 30px;
-    color: #aacc00;
+    color: var(--color5);
 }
 
 @media (max-width: 990px) {
