@@ -13,7 +13,11 @@
 }
 
 .laterales {
-    z-index: 100;
+    z-index: 200;
+}
+
+.abajo {
+    z-index: -1;
 }
 
 hr {
@@ -47,10 +51,6 @@ hr {
 .imgperfil {
     width: 180px !important;
     height: 180px !important;
-}
-
-.main-container {
-    margin: 15px;
 }
 
 .img-logo {

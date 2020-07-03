@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LandingPageComponent } from './Page/landing-page/landing-page.component';
-import { ServicioComponent } from './page/servicio/servicio.component';
+
 import { SidebarComponent } from './shere/sidebar/sidebar.component';
 
 
