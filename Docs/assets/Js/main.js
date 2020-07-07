@@ -13,3 +13,17 @@ $(document).ready(function() {
         'readOnly': true
     });
 });
+
+
+// $(document).ready(function() {
+//     var altura = $('.nav').offset().top;
+
+//     $(window).on('scroll', function() {
+//         if ($(window).scrollTop() > altura) {
+//             $('.nav').addClass('nav2');
+//         } else {
+//             $('.nav').removeClass('nav2');
+//         }
+//     });
+
+// });

@@ -2,28 +2,32 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ChartsModule } from 'ng2-charts';
+
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shere/navbar/navbar.component';
 import { FooterComponent } from './shere/footer/footer.component';
-import { LandingPageComponent } from './Page/landing-page/landing-page.component';
-import { SidebarComponent } from './shere/sidebar/sidebar.component';
 
+import { CvComponent } from './Page/cv/cv.component';
 
+import { NavbarbotComponent } from './shere/navbarbot/navbarbot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    LandingPageComponent,
-    SidebarComponent,
+    NavbarbotComponent,
+    CvComponent, 
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartsModule
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]

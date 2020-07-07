@@ -1,0 +1,15 @@
+:root {
+    --color1: #343838;
+    --color2: #005F6B;
+    --color3: #008C9E;
+    --color4: #00B4CC;
+    --color5: #00DFFC;
+}
+
+.contfooter {
+    z-index: 1 !important;
+}
+
+.bg-green {
+    background-color: var(--color2);
+}

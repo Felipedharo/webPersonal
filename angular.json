@@ -13,7 +13,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/FelipeDHaro",
+                        "outputPath": "docs/",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -30,7 +30,9 @@
                         ],
                         "scripts": [
                             "./node_modules/bootstrap/dist/js/bootstrap.js",
-                            "./node_modules/@fortawesome/fontawesome-free/js/all.js"
+                            "./node_modules/@fortawesome/fontawesome-free/js/all.js",
+                            "./node_modules/wowjs/dist/wow.js",
+                            "./node_modules/chart.js/dist/Chart.js"
                         ]
                     },
                     "configurations": {
