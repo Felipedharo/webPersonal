@@ -22,7 +22,7 @@
     "@fortawesome/fontawesome-free": "^5.13.0",
     "animate.css": "^4.1.0",
     "bootstrap": "^4.5.0",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "ng2-charts": "^2.3.2",
     "ngx-wow": "^2.0.1",
     "rxjs": "~6.4.0",
